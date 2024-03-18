@@ -1,5 +1,8 @@
 # Sales Dashboard Application
 
+![Full app](image_files/streamlit_full.png)
+
+
 This Streamlit application provides an interactive sales dashboard, showcasing revenue, expenses, profit, and orders over time with a focus on data visualization and user interaction.
 
 ## Features
