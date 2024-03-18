@@ -1,0 +1,32 @@
+/* style.css */
+
+body {
+    color: #1f93ff !important; /* Blue text color for the body */
+    background-color: #000000 !important; /* Black background color for the body */
+}
+
+/* Style for the metrics */
+.stMetric {
+    background-color: #262730 !important; /* Dark background for metrics */
+    border-radius: 5px !important; /* Rounded borders for metrics */
+    padding: 5px !important; /* Reduced padding inside metrics */
+    margin: 2px !important; /* Reduced margin outside metrics */
+    font-size: 14px !important; /* Adjust the font size as needed */
+    overflow-x: visible !important; /* Allows content to be visible even when overflowing */
+    white-space: nowrap; /* Prevents the text from wrapping */
+    overflow: visible !important; /* Set overflow to visible for debugging */
+    text-overflow: clip; /* Change from ellipsis to clip to see the full text */
+}
+
+
+/* Style for headers */
+h1, h2, h3, h4, h5, h6, .h7-style {
+    color: blue !important; /* Blue color for all headers */
+    text-align: center !important; /* Center alignment for all headers */
+}
+
+.header {
+    text-align: center !important; /* Center alignment for headers with 'header' class */
+    color: blue !important; /* Ensures text color is blue */
+}
+
