@@ -46,14 +46,17 @@ The generate_junk.py script provided with this dashboard serves as a powerful to
 ## Adapting to Different Data Models
 Fields Customization: You can modify the script to include additional fields relevant to your analysis, such as product categories, customer demographics, or transaction types. Adjusting the arrays and random generators will allow you to simulate a wide range of data points.
 
-## Date Range Adjustments: The script currently generates dates within a predefined range. You can customize this range by modifying the start_date and end_date variables. This is particularly useful for simulating data from different periods or forecasting future transactions.
+## Date Range Adjustments:
+The script currently generates dates within a predefined range. You can customize this range by modifying the start_date and end_date variables. This is particularly useful for simulating data from different periods or forecasting future transactions.
 
-## Volume and Distribution: By altering the num_samples variable, you can control the volume of data generated. Additionally, tweaking the logic behind the random distribution of values (e.g., revenue, expenses) can help simulate more specific financial scenarios.
+## Volume and Distribution:
+By altering the num_samples variable, you can control the volume of data generated. Additionally, tweaking the logic behind the random distribution of values (e.g., revenue, expenses) can help simulate more specific financial scenarios.
 
 ## Incorporating Realistic Patterns
 Seasonality and Trends: Introduce functions that simulate seasonal sales patterns or long-term trends in your mock data. For example, you can increase the probability of higher sales volumes during certain months to reflect holiday seasons.
 
-Customer Behavior: Simulate more complex customer behaviors by introducing logic that generates repeat purchases, customer loyalty effects, or varying order sizes based on predefined customer segments.
+## Customer Behavior:
+Simulate more complex customer behaviors by introducing logic that generates repeat purchases, customer loyalty effects, or varying order sizes based on predefined customer segments.
 
 ## Usage Instructions
 After customizing the data generator script to your satisfaction, simply run it to produce a new dataset:
